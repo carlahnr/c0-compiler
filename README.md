@@ -51,13 +51,13 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
   Example of codes for testing.
   ```
 int factorial(int n) {
-  if (n == 0) 
-    return 1;
-  return n * factorial(n-1);
+    if (n == 0) 
+      return 1;
+    return n * factorial(n-1);
 }
 
 int main() {
-  print_int(factorial(scan_int()));
+    print_int(factorial(scan_int()));
 }
 ```
 
