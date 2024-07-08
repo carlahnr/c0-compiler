@@ -3,7 +3,7 @@
 
 - [About](#about)
   - [Commands Accepted](#commands-accepted)
-- [Examples](#examples)
+- [Executing](#executing)
 - [Contributors](#contributors)
 
 ## About
@@ -47,7 +47,13 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
   - Flux control: `break` and `continue`
   - Logical operators with *short-circuit* evaluation: `!`, `&&` and `||`
 
-## Examples
+## Executing
+  Run the commands:
+  - `cabal build`
+  - `cabal run < tests/input.c0`
+
+### Examples
+  File saved as `input.c0` into `/tests` directory:
   Example of C0 code for testing.
   ```
 int factorial(int n) {
