@@ -6,5 +6,20 @@ A basic compiler for C0 language[^1]. This compiler reads C0 code and generates 
 
 [^1]: A simplified version of C language created for teaching programming created by University Carnegie Mellon. See [C0 Reference Guide](https://c0.cs.cmu.edu/docs/c0-reference.pdf).
 
+## Commands Accepted
+  - Basic types (int, bool) and constants such as `true`, `false` and integer numbers.
+  - String type
+  - Arithmetic expressions: `+`, `-`, `*`, `/` and `%`.
+  - Variable declarations, and variable simple attributions of value: `var = expr`.
+  - Comparison operators: `==`, `!=`, `<`, `<=`, `>`, `>=`
+  - Conditional executors: `if(expr) instr`, `if(expr) instr else instr`
+  - Instruction blocks: `{ instr ... instr }`
+  - Cycles: `while(expr) intr` or `for`
+  - Function definitions with argument parameters and possible return of a value
+  - Functions for IO of integers: `scan_int()`, `print_int()`
+  - Printing function for string: `print_str()`
+  - Flux control: `break` and `continue`
+  - Logical operators with *short-circuit* evaluation: `!`, `&&` and `||`
+
 ## Contributors
   - Rui Santos
