@@ -9,22 +9,26 @@ A basic compiler for C0 language[^1]. This compiler reads C0 code and generates 
 ## Commands Accepted
   - Basic types (int, bool) and constants such as `true`, `false` and integer numbers.
   - String type
-  - Arithmetic expressions: `+`, `-`, `*`, `/` and `%`.
-  - Variable declarations, and variable simple attributions of value: `var = expr`.
+  - Comments in line or block multiline: `//` or `/* multiline comment */`
+  - Arithmetic expressions: `+`, `-`, `*`, `/` and `%`
+  - Variable declarations, and variable simple attributions of value: `var = expr`
   - Comparison operators: `==`, `!=`, `<`, `<=`, `>`, `>=`
   - Conditional executors:
     ```bash
     if(expression)
-      *instruction or instructionblock*
+      //instruction or instructionblock
     ```
     ```bash
     if(expression)
-      *instruction or instructionblock*
+      //instruction or instructionblock
     else
-      *instruction or instructionblock*
+      //instruction or instructionblock
     ```
   - Instruction blocks: `{ instructions }`
-  - Cycles: `while(expr) intr` or `for`
+  - Cycles `for` or `while`:
+    ```bash
+    while(expression)
+      *instruction or instructionblock*```
   - Function definitions with argument parameters and possible return of a value
   - Functions for IO of integers: `scan_int()`, `print_int()`
   - Printing function for string: `print_str()`
