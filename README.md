@@ -11,12 +11,12 @@ A basic compiler for C0 language[^1]. This compiler reads C0 code and generates 
   - String type
   - Comments in line or block multiline: `//` or `/* multiline comment */`
   - Arithmetic expressions: `+`, `-`, `*`, `/` and `%`
-  - Variable declarations, and variable simple attributions of value: `var = expr`
+  - Variable declarations, and variable simple attributions of value: `variable_name = expression`
   - Comparison operators: `==`, `!=`, `<`, `<=`, `>`, `>=`
   - Conditional executors:
     ```bash
     if(expression)
-      //instruction or instructionblock
+      //single line instruction or instruction block
     ```
     ```bash
     if(expression)
