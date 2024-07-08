@@ -28,7 +28,8 @@ A basic compiler that reads C0[^1] language code and generates a code in Assembl
     ```
     {
       //instructions
-    }```
+    }
+    ```
   - Cycles `for` or `while`:
     ```
     while(expression)
