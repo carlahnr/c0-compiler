@@ -15,14 +15,14 @@ A basic compiler for C0 language[^1]. This compiler reads C0 code and generates 
   - Conditional executors:
     ```bash
     if(expr)
-      instr
+      *instruction or instructionblock*
     ```
-  ```bash
-if(expr)
-  instr
-else
-  instr
-```
+    ```bash
+    if(expr)
+      *instruction or instructionblock*
+    else
+      *instruction or instructionblock*
+    ```
   - Instruction blocks: `{ instr ... instr }`
   - Cycles: `while(expr) intr` or `for`
   - Function definitions with argument parameters and possible return of a value
