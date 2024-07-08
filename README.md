@@ -14,11 +14,11 @@ A basic compiler that reads C0[^1] language code and generates a code in Assembl
   - Variable declarations, and variable simple attributions of value: `variable_name = expression`
   - Comparison operators: `==`, `!=`, `<`, `<=`, `>`, `>=`
   - Conditional executors:
-    ```bash
+    ```
     if(expression)
       //single line instruction or instruction block
     ```
-    ```bash
+    ```
     if(expression)
       //single line instruction or instruction block
     else
@@ -26,7 +26,7 @@ A basic compiler that reads C0[^1] language code and generates a code in Assembl
     ```
   - Instruction blocks: `{ instructions }`
   - Cycles `for` or `while`:
-    ```bash
+    ```
     while(expression)
       //single line instruction or instruction block
     ```
