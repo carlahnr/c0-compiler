@@ -47,13 +47,13 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
   - Printing function for string: `print_str()`
   - Flux control: `break` and `continue`
   - Logical operators with *short-circuit* evaluation: `!`, `&&` and `||`
-
-## Dependencies
+  
+## Dependencies
   - [Haskell](https://www.haskell.org/get-started/)
   - [Cabal](https://www.haskell.org/cabal/)
   - [Alex](https://haskell-alex.readthedocs.io/en/latest/) for generating lexical analysers.
   - [Happy](https://haskell-happy.readthedocs.io/en/latest/obtaining.html) for parsing generation.
-  
+
 ## Executing
   Run the commands:
   - `cabal build`
