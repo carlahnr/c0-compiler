@@ -3,7 +3,7 @@
 
 - [About](#about)
   - [Commands Accepted](#commands-accepted)
-- [Dependencies](#dependencies)
+- [What is used](#what-is-used)
 - [Executing](#executing)
 - [Contributors](#contributors)
 
@@ -48,7 +48,7 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
   - Flux control: `break` and `continue`
   - Logical operators with *short-circuit* evaluation: `!`, `&&` and `||`
   
-## Dependencies
+## What is used
   - [Haskell](https://www.haskell.org/get-started/)
   - [Cabal](https://www.haskell.org/cabal/) for building the application.
   - [Alex](https://haskell-alex.readthedocs.io/en/latest/) for generating lexical analysers.
