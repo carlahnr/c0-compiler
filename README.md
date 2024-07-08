@@ -14,16 +14,16 @@ A basic compiler for C0 language[^1]. This compiler reads C0 code and generates 
   - Comparison operators: `==`, `!=`, `<`, `<=`, `>`, `>=`
   - Conditional executors:
     ```bash
-    if(expr)
+    if(expression)
       *instruction or instructionblock*
     ```
     ```bash
-    if(expr)
+    if(expression)
       *instruction or instructionblock*
     else
       *instruction or instructionblock*
     ```
-  - Instruction blocks: `{ instr ... instr }`
+  - Instruction blocks: `{ instructions }`
   - Cycles: `while(expr) intr` or `for`
   - Function definitions with argument parameters and possible return of a value
   - Functions for IO of integers: `scan_int()`, `print_int()`
