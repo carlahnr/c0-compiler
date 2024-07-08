@@ -3,7 +3,7 @@
 
 - [About](#about)
   - [Commands Accepted](#commands-accepted)
-- [What is used](#what-is-used)
+- [Development toolchain](#development-toolchain)
 - [Executing](#executing)
 - [Contributors](#contributors)
 
@@ -12,7 +12,7 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
 
 [^1]: A simplified version of C language created for teaching programming created by University Carnegie Mellon. See [C0 Reference Guide](https://c0.cs.cmu.edu/docs/c0-reference.pdf).
 
-### Commands Accepted
+### Commands accepted
   The following commands and block of commands are accepted by this simple C0 compiler:
   - Basic types (int, bool) and constants such as `true`, `false` and integer numbers.
   - String type
@@ -48,7 +48,7 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
   - Flux control: `break` and `continue`
   - Logical operators with *short-circuit* evaluation: `!`, `&&` and `||`
   
-## What is used
+## Development toolchain
   - [Haskell](https://www.haskell.org/get-started/)
   - [Cabal](https://www.haskell.org/cabal/) for building the application.
   - [Alex](https://haskell-alex.readthedocs.io/en/latest/) for generating lexical analysers.
