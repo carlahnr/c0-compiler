@@ -48,7 +48,7 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
   - Logical operators with *short-circuit* evaluation: `!`, `&&` and `||`
 
 ## Example
-  Example of codes for testing.
+  Example of C0 code for testing.
   ```
 int factorial(int n) {
     if (n == 0) 
