@@ -74,4 +74,5 @@ int main() {
 ```
 
 ## Contributors
+  - Carla Henriques
   - Rui Santos
