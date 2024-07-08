@@ -12,8 +12,12 @@ A basic compiler for C0 language[^1]. This compiler reads C0 code and generates 
   - Arithmetic expressions: `+`, `-`, `*`, `/` and `%`.
   - Variable declarations, and variable simple attributions of value: `var = expr`.
   - Comparison operators: `==`, `!=`, `<`, `<=`, `>`, `>=`
-  - Conditional executors: ```if(expr)
-  instr``` ```if(expr)
+  - Conditional executors:
+    ```bash
+    if(expr)
+      instr```
+  ```bash
+if(expr)
   instr
 else
   instr```
