@@ -54,7 +54,6 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
 
 ### Examples
   File saved as `input.c0` into `/tests` directory:
-  Example of C0 code for testing.
   ```
 int factorial(int n) {
     if (n == 0) 
