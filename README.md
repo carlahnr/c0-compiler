@@ -1,12 +1,17 @@
 # C0 Compiler
 ![Haskell](https://img.shields.io/badge/haskell-%235D4F85?style=for-the-badge&logo=haskell)
 
+- [About](#about)
+  - [Commands Accepted](#commands-accepted)
+- [Contributors](#contributors)
+
 ## About
 A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-reference.pdf) [^1] code and generates a code in Assembly for MIPS architecture.
 
 [^1]: A simplified version of C language created for teaching programming created by University Carnegie Mellon. See [C0 Reference Guide](https://c0.cs.cmu.edu/docs/c0-reference.pdf).
 
-## Commands Accepted
+### Commands Accepted
+  The following commands and block of commands are accepted by this simple C0 compiler:
   - Basic types (int, bool) and constants such as `true`, `false` and integer numbers.
   - String type
   - Comments in line or block multiline: `//` or `/* multiline comment */`
