@@ -50,7 +50,7 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
   
 ## Dependencies
   - [Haskell](https://www.haskell.org/get-started/)
-  - [Cabal](https://www.haskell.org/cabal/)
+  - [Cabal](https://www.haskell.org/cabal/) for building the application.
   - [Alex](https://haskell-alex.readthedocs.io/en/latest/) for generating lexical analysers.
   - [Happy](https://haskell-happy.readthedocs.io/en/latest/obtaining.html) for parsing generation.
 
