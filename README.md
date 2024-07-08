@@ -1,4 +1,4 @@
-# c0-compiler
+# C0 Compiler
 ![Haskell](https://img.shields.io/badge/haskell-%235D4F85?style=for-the-badge&logo=haskell)
 
 ## About
