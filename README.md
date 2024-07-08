@@ -47,7 +47,7 @@ A basic compiler that reads [C0 language](https://c0.cs.cmu.edu/docs/c0-referenc
   - Flux control: `break` and `continue`
   - Logical operators with *short-circuit* evaluation: `!`, `&&` and `||`
 
-## Example
+## Examples
   Example of C0 code for testing.
   ```
 int factorial(int n) {
