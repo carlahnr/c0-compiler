@@ -20,15 +20,16 @@ A basic compiler for C0 language[^1]. This compiler reads C0 code and generates 
     ```
     ```bash
     if(expression)
-      //instruction or instructionblock
+      //single line instruction or instruction block
     else
-      //instruction or instructionblock
+      //single line instruction or instruction block
     ```
   - Instruction blocks: `{ instructions }`
   - Cycles `for` or `while`:
     ```bash
     while(expression)
-      *instruction or instructionblock*```
+      //single line instruction or instruction block
+    ```
   - Function definitions with argument parameters and possible return of a value
   - Functions for IO of integers: `scan_int()`, `print_int()`
   - Printing function for string: `print_str()`
